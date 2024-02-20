@@ -11,6 +11,10 @@ videos.forEach((video) => {
         );
       });
   });
+  video.addEventListener("click", () => {
+    video.play();
+  });
+  // for mobile devices
   video.addEventListener("mouseleave", () => {
     video.pause();
   });
